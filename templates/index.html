@@ -30,7 +30,7 @@
     <h2 class="text-center mb-4">Boston House Price Prediction</h2>
     <form method="POST" action="/predict">
         <div class="row">
-            {% for i in range(12) %}
+            {% for i in range(13) %}
                 <div class="col-md-4 mb-3">
                     <label for="feature{{ i }}" class="form-label">Feature {{ i+1 }}</label>
                     <input type="number" step="any" class="form-control" name="feature{{ i }}" required>
